@@ -30,22 +30,14 @@ bash install_gfootball.sh
 To train `GMOF` on the `Terran_10_vs_11`(SMACv2) scenario: 
 
 ```shell
-python3 src/main.py --config=group --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z
+python3 src/main.py --config=gmof --env-config=Terran_10_vs_11
 ```
 
-Change the `map_name` accordingly for other SMAC scenarios (e.g., `MMM2`). 
+or use shell script
 
-To train `GoMARL` on the `academy_3_vs_1_with_keeper`(Gfootball) scenario:
-
+```shell
+bash ez-run.sh
 ```
-python3 src/main.py --config=group --env-config=academy_3_vs_1_with_keeper
-```
-
-Change the `env-config` accordingly for other Gfootball scenarios (e.g., `academy_counterattack_easy`). 
-
-All results will be saved in the `results` folder. 
-
-The config file `src/config/algs/group.yaml` contains default hyperparameters for GoMARL.
 
 
 ## Evaluation
