@@ -1,6 +1,6 @@
 # Code Instruction for GMOF
 
-This instruction hosts the PyTorch implementation of GMOF accompanying the paper ["**Generalized Multi-Objective Factorization for Multi-Agent Reinforcement Learning**".
+This instruction hosts the PyTorch implementation of GMOF accompanying the paper "**Generalized Multi-Objective Factorization for Multi-Agent Reinforcement Learning**".
 
 The implementation is based on the frameworks [PyMARL](https://github.com/oxwhirl/pymarl) and [PyMARL2](https://github.com/hijkzzz/pymarl2) with environments [SMAC](https://github.com/oxwhirl/smac) [SMACv2](https://github.com/oxwhirl/smacv2) and [Gfootball](https://github.com/google-research/football). All of our SMAC experiments are based on the latest PyMARL2 utilizing SC2.4.6.10. The underlying dynamics are sufficiently different, so you cannot compare runs across various versions.
 
